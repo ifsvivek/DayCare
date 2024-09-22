@@ -12,35 +12,39 @@ DayCare is a mobile and web application designed to manage daycare services effi
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/ifsvivek/DayCare.git
-    cd DayCare
-    ```
+
+   ```sh
+   git clone https://github.com/ifsvivek/DayCare.git
+   cd DayCare
+   ```
 
 2. Install dependencies:
-    ```sh
-    npm install
-    ```
+
+   ```sh
+   npm install
+   ```
 
 3. Set up Firebase:
-    - Add your `google-services.json` file to the root directory.
+   - Add your `google-services.json` file to the root directory.
 
 ## Usage
 
 - Start the development server:
-    ```sh
-    npm start
-    ```
+
+  ```sh
+  npm start
+  ```
 
 - Run on Android:
-    ```sh
-    npm run android
-    ```
+
+  ```sh
+  npm run android
+  ```
 
 - Run on Web:
-    ```sh
-    npm run web
-    ```
+  ```sh
+  npm run web
+  ```
 
 ## Scripts
 
