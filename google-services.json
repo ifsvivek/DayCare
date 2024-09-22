@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176140949965",
+    "project_id": "daycare-fe9a8",
+    "storage_bucket": "daycare-fe9a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176140949965:android:00e9d49eb7d811173f4c84",
+        "android_client_info": {
+          "package_name": "com.ifsvivek.Daycare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdUK-rGzfHtgE0VsYCnPocs-Z86FhIslQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
