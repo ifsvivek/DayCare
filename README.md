@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# DayCare
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+DayCare is a mobile and web application designed to manage daycare services efficiently. This project is built using React Native, Expo, and NativeWind for styling.
 
-## Get started
+## Features
 
-1. Install dependencies
+- User Authentication
+- Daycare Management
+- Search Functionality
+- Responsive Design
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/ifsvivek/DayCare.git
+    cd DayCare
+    ```
 
-   ```bash
-    npx expo start
-   ```
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-In the output, you'll find options to open the app in a
+3. Set up Firebase:
+    - Add your `google-services.json` file to the root directory.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Start the development server:
+    ```sh
+    npm start
+    ```
 
-## Get a fresh project
+- Run on Android:
+    ```sh
+    npm run android
+    ```
 
-When you're ready, run:
+- Run on Web:
+    ```sh
+    npm run web
+    ```
 
-```bash
-npm run reset-project
-```
+## Scripts
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `npm run reset-project`: Resets the project to a blank state.
+- `npm run lint`: Lints the codebase.
+- `npm run format`: Formats the codebase using Prettier.
